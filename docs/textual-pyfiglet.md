@@ -1,7 +1,5 @@
 # Textual-Pyfiglet
 
-## [Link to Github](https://github.com/edward-jazzhands/textual-pyfiglet)
-
 ## Installation
 
 ```sh
@@ -102,3 +100,5 @@ self.query("#figlet1").set_justify("left")
 ## Colors, Gradients, and Animation
 
 This section is not complete yet.
+
+## [Link to Github](https://github.com/edward-jazzhands/textual-pyfiglet)

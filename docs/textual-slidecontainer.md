@@ -1,7 +1,5 @@
 # Textual-SlideContainer
 
-## [Link to Github](https://github.com/edward-jazzhands/textual-slidecontainer)
-
 ## Installation
 
 Install with:
@@ -227,3 +225,5 @@ def on_slide_container_init_closed(self, event: SlideContainer.InitClosed):
 ```
 
 You can see an example of this being used in the [demo app](https://github.com/edward-jazzhands/textual-slidecontainer/blob/master/src/textual_slidecontainer/demo.py).
+
+## [Link to Github](https://github.com/edward-jazzhands/textual-slidecontainer)

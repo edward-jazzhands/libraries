@@ -1,7 +1,5 @@
 # Rich-Pyfiglet
 
-## [Link to Github](https://github.com/edward-jazzhands/rich-pyfiglet)
-
 ## Installation
 
 ```sh
@@ -146,3 +144,5 @@ rich_fig = RichFiglet(
 console.print(rich_fig)
 console.print("The rest of your Rich script")
 ```
+
+## [Link to Github](https://github.com/edward-jazzhands/rich-pyfiglet)
