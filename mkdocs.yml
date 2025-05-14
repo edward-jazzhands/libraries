@@ -1,0 +1,41 @@
+site_name: Libraries by Edward Jazzhands
+site_description: Documentation for all libraries by Edward Jazzhands
+site_author: Edward Jazzhands
+site_url: https://edward-jazzhands.github.io/libraries/
+theme: 
+  name: material
+  # features:
+  #   - navigation.tabs
+  #   - navigation.tabs.sticky
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+nav:
+  - Rich-Pyfiglet: rich-pyfiglet.md
+  - Textual-Pyfiglet: textual-pyfiglet.md    
+  - Textual-SlideContainer: textual-slidecontainer.md
+  - Textual-Window: textual-window.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://www.github.com/edward-jazzhands
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences          
