@@ -41,7 +41,7 @@ uv run textual-pyfiglet
 Import into your project with:
 
 ```py
-from textual_slidecontainer import SlideContainer
+from textual_pyfiglet import FigletWidget
 ```
 
 The FigletWidget works out of the box with default settings. The most basic usage
@@ -99,6 +99,6 @@ self.query("#figlet1").set_justify("left")
 
 ## Colors, Gradients, and Animation
 
-This section is not complete yet.
+This section is not complete yet (The color/animation system is still under development, but you can see it action in the demo app).
 
 ## [Link to Github](https://github.com/edward-jazzhands/textual-pyfiglet)
