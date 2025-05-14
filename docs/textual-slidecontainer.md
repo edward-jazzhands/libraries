@@ -1,7 +1,5 @@
 # Textual-SlideContainer
 
-![textual-slidecontainer](https://github.com/user-attachments/assets/aec1fa21-2994-40e7-9c02-e22b299b837a)
-
 ## [Link to Github](https://github.com/edward-jazzhands/textual-slidecontainer)
 
 ## Installation
