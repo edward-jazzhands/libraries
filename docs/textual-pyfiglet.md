@@ -1,7 +1,5 @@
 # Textual-Pyfiglet
 
-This library is the sister library of [Rich-Pyfiglet](rich-pyfiglet.md)
-
 ## [Link to Github](https://github.com/edward-jazzhands/textual-pyfiglet)
 
 ## Installation

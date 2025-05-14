@@ -1,7 +1,5 @@
 # Rich-Pyfiglet
 
-This library is the sister library of [Textual-Pyfiglet](textual-pyfiglet.md)
-
 ## [Link to Github](https://github.com/edward-jazzhands/rich-pyfiglet)
 
 ## Installation
@@ -14,30 +12,6 @@ Or using uv:
 
 ```sh
 uv add rich-pyfiglet
-```
-
-## Demo app
-
-You can instantly try out the demo app using uv or pipx:
-
-```sh
-uvx rich-pyfiglet
-```
-
-```sh
-pipx rich-pyfiglet
-```
-
-Or if you have it downloaded into your python environment, run it using the entry script:
-
-```sh
-rich-pyfiglet
-```
-
-For uv users:
-
-```sh
-uv run rich-pyfiglet
 ```
 
 ## CLI mode
