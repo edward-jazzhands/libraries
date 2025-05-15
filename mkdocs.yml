@@ -4,9 +4,9 @@ site_author: Edward Jazzhands
 site_url: https://edward-jazzhands.github.io/libraries/
 theme: 
   name: material
-  # features:
-  #   - navigation.tabs
-  #   - navigation.tabs.sticky
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     # Dark Mode
     - scheme: slate
@@ -21,10 +21,18 @@ theme:
         name: Switch to dark mode
 
 nav:
-  - Rich-Pyfiglet: rich-pyfiglet.md
-  - Textual-Pyfiglet: textual-pyfiglet.md    
-  - Textual-SlideContainer: textual-slidecontainer.md
-  - Textual-Window: textual-window.md
+  - Rich-Pyfiglet: 
+    - Guide: rich-pyfiglet/index.md
+    - Reference: rich-pyfiglet/reference.md  
+  - Textual-Pyfiglet:  
+    - Guide: textual-pyfiglet/index.md   
+    - Reference: textual-pyfiglet/reference.md  
+  - Textual-SlideContainer: 
+    - Guide: textual-slidecontainer/index.md
+    - Reference: textual-slidecontainer/reference.md
+  - Textual-Window:
+    - Guide: textual-window/index.md
+    # - Reference: textual-window/reference.md
 
 extra:
   social:
@@ -37,5 +45,19 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
+  - pymdownx.highlight
   - pymdownx.snippets
-  - pymdownx.superfences          
+  - pymdownx.superfences   
+  - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers: 
+        python:
+          options:
+            show_source: false
+
