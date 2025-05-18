@@ -104,7 +104,7 @@ console.print(rich_fig)
 
 The RichFiglet takes arguments for border settings. This is completely necessary in order to ensure that it renders properly inside of borders. You might wonder, why not simply take the rendered figlet and put it inside a Rich Panel object after its been rendered? Well, this is prone to some problems.
 
-The first is that the Figlet gets the terminal width and calculates how much space it has to render. Adding a border and padding after that throws off the calculation, and can mess up the render if your terminal just happens to be at the right size. The second issue is that the animations cannot be placed inside of a Panel object to place a border around them. It will cause the animation to stop working.
+The first is that the RichFiglet gets the terminal width and calculates how much space it has to render. Adding a border and padding after that throws off the calculation, and can mess up the render if your terminal just happens to be at the right size. The second issue is that the animations cannot be placed inside of a Panel object to place a border around them. It will cause the animation to stop working.
 
 The RichFiglet solves both of these problems by rendering a border itself. Pass in your desired border settings as arguments in the constructor, and the RichFiglet will properly account for the space taken up by the border and padding to ensure it always renders properly in the available space as well as add a border around any animations you choose.
 
