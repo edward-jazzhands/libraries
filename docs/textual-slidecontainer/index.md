@@ -4,8 +4,6 @@
 
 ## Installation
 
-Install with:
-
 ```sh
 pip install textual-slidecontainer
 ```
