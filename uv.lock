@@ -132,6 +132,7 @@ dependencies = [
     { name = "rich-pyfiglet" },
     { name = "textual-pyfiglet" },
     { name = "textual-slidecontainer" },
+    { name = "textual-window" },
 ]
 
 [package.metadata]
@@ -140,8 +141,9 @@ requires-dist = [
     { name = "mkdocstrings", extras = ["python"], specifier = ">=0.29.1" },
     { name = "pymdown-extensions", specifier = ">=10.15" },
     { name = "rich-pyfiglet", specifier = ">=0.1.3" },
-    { name = "textual-pyfiglet", specifier = ">=0.7.0" },
+    { name = "textual-pyfiglet", specifier = ">=0.8.1" },
     { name = "textual-slidecontainer", specifier = ">=0.4.0" },
+    { name = "textual-window", specifier = ">=0.2.0" },
 ]
 
 [[package]]
@@ -528,16 +530,16 @@ wheels = [
 
 [[package]]
 name = "textual-pyfiglet"
-version = "0.7.0"
+version = "0.8.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "rich-pyfiglet" },
     { name = "textual" },
     { name = "textual-slidecontainer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dc/c4/281b6f940c36f793f40d59206e6cefa830c67a62532ddad4507c24c32522/textual_pyfiglet-0.7.0.tar.gz", hash = "sha256:1e2b5e4f21cbc907edffe48e884a360085b24f5ade695824bff77338d99fd413", size = 157075, upload-time = "2025-05-13T14:53:51.155Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9c/98/0b8a7b0a6335b3e98f24d0a1ee7bf4112cc870109a0a74456116157d3c53/textual_pyfiglet-0.8.4.tar.gz", hash = "sha256:b122ada77ec6c33f31a7135abf72484d8bd4e6f7885d951de5434688f03b9c84", size = 163054, upload-time = "2025-05-22T18:16:58.232Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c5/1a/b7096d64604e1b4268123ec45786a1e0adfb6abe72044172cf90dafc5fdb/textual_pyfiglet-0.7.0-py3-none-any.whl", hash = "sha256:635902a546e86803bbf41fff0ae19193a3cd82ff82c05543c6a9d7eadd5229f8", size = 18002, upload-time = "2025-05-13T14:53:50.162Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/05/0f1cab12ffe8708cc8746464a68c4c841e907164b091418b68903526ffcb/textual_pyfiglet-0.8.4-py3-none-any.whl", hash = "sha256:8f39923c3fe88e61d6f52681cbf4eeaecb4930ee2de9cc80be260ef022719c1e", size = 23522, upload-time = "2025-05-22T18:16:56.812Z" },
 ]
 
 [[package]]
@@ -550,6 +552,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/1c/00/0bff4f5839208d31c871ad9d045c46451071e4844b16c6d7f442db8fb60a/textual_slidecontainer-0.4.0.tar.gz", hash = "sha256:d572e1d700e44d24f0f82fcccf990540acc81f8c751f05c93f1f6354b2007e21", size = 147742, upload-time = "2025-05-05T07:20:39.35Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/91/e7/693f5068bec0f9c1dedb5fda18913e48987d9008dba1d0e28e822a76b27a/textual_slidecontainer-0.4.0-py3-none-any.whl", hash = "sha256:35f58ae680b760cb7bea0325d9c73ed73d76f66da5fc8479b56a34f4c0333adc", size = 10692, upload-time = "2025-05-05T07:20:37.918Z" },
+]
+
+[[package]]
+name = "textual-window"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "textual" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5c/0c/24ffb6d7d8db3ffcc8e39c9376f6ab642feefe0baa52f15e674d7c6bf0a7/textual_window-0.2.0.tar.gz", hash = "sha256:52df3913dde156a0b377d331d5b7f7000e8b4cdd5c302d01f9a16d85de3b98a1", size = 86982, upload-time = "2025-05-25T04:07:23.498Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/29/76/4230d83b44f8c0dd8ea67367325f26e0fe9145b6ca448fe1b4e3df0640c3/textual_window-0.2.0-py3-none-any.whl", hash = "sha256:744cd827151ff805cb4c76c5d7c3d144624970289281a1f7ec2269778f40b150", size = 23179, upload-time = "2025-05-25T04:07:22.149Z" },
 ]
 
 [[package]]

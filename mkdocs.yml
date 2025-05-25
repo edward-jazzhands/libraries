@@ -32,7 +32,7 @@ nav:
     - Reference: textual-slidecontainer/reference.md
   - Textual-Window:
     - Guide: textual-window/index.md
-    # - Reference: textual-window/reference.md
+    - Reference: textual-window/reference.md
 
 extra:
   social:
