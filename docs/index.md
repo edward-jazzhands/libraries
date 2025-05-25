@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Libraries By Edward Jazzhands
 
 This site contains the documentation for the libraries:
