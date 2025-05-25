@@ -4,3 +4,4 @@ pymdown-extensions
 rich-pyfiglet
 textual-pyfiglet
 textual-slidecontainer
+textual-window

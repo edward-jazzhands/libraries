@@ -2,7 +2,7 @@
 
 This site contains the documentation for the libraries:
 
-- Rich-PyFiglet
-- Textual-PyFiglet
-- Textual-SlideContainer
-- Textual-Window
+[- Rich-PyFiglet](rich-pyfiglet/)
+[- Textual-PyFiglet](textual-pyfiglet/)
+[- Textual-SlideContainer](textual-slidecontainer/)
+[- Textual-Window](textual-window/)
