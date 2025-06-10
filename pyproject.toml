@@ -9,7 +9,7 @@ dependencies = [
     "mkdocstrings[python]>=0.29.1",
     "pymdown-extensions>=10.15",
     "rich-pyfiglet>=0.1.4",
-    "textual-pyfiglet>=0.8.5",
-    "textual-slidecontainer>=0.4.0",
+    "textual-pyfiglet>=0.8.6",
+    "textual-slidecontainer>=0.4.1",
     "textual-window>=0.3.0",
 ]
