@@ -11,5 +11,5 @@ dependencies = [
     "rich-pyfiglet>=0.1.4",
     "textual-pyfiglet>=0.8.6",
     "textual-slidecontainer>=0.4.1",
-    "textual-window>=0.3.0",
+    "textual-window>=0.3.4",
 ]
