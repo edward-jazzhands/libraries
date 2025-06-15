@@ -23,7 +23,7 @@ uvx textual-window
 ```
 
 ```sh
-pipx textual-window
+pipx run textual-window
 ```
 
 Or if you have it downloaded into your python environment, run it using the entry script:

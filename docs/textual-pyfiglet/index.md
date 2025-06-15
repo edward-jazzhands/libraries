@@ -23,7 +23,7 @@ uvx textual-pyfiglet
 ```
 
 ```sh
-pipx textual-pyfiglet
+pipx run textual-pyfiglet
 ```
 
 Or if you have it downloaded into your python environment, run it using the entry script:

@@ -14,3 +14,5 @@ This site contains the documentation for the libraries:
 #### [Textual-SlideContainer](textual-slidecontainer/)
 
 #### [Textual-Window](textual-window/)
+
+#### [Textual-Color-O-Matic](textual-coloromatic/)

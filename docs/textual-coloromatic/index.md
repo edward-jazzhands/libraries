@@ -23,7 +23,7 @@ uvx textual-coloromatic
 ```
 
 ```sh
-pipx textual-coloromatic
+pipx run textual-coloromatic
 ```
 
 Or if you have it downloaded into your python environment, run it using the entry script:

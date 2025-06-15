@@ -25,7 +25,7 @@ uvx rich-pyfiglet "Rich is awesome" --colors green3:purple -a gradient_down
 or using pipx:
 
 ```sh
-pipx rich-pyfiglet "Rich is awesome" --colors blue1:magenta3 -h
+pipx run rich-pyfiglet "Rich is awesome" --colors blue1:magenta3 -h
 ```
 
 ## Getting Started

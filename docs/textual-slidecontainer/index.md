@@ -23,7 +23,7 @@ uvx textual-slidecontainer
 ```
 
 ```sh
-pipx textual-slidecontainer
+pipx run textual-slidecontainer
 ```
 
 Or if you have it downloaded into your python environment, run it using the entry script:
