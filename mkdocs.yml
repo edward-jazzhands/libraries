@@ -33,6 +33,9 @@ nav:
   - Textual-Window:
     - Guide: textual-window/index.md
     - Reference: textual-window/reference.md
+  - Textual-Color-O-Matic:
+    - Guide: textual-coloromatic/index.md
+    - Reference: textual-coloromatic/reference.md    
 
 extra:
   social:

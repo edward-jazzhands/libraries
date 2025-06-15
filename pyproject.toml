@@ -10,6 +10,7 @@ dependencies = [
     "pymdown-extensions>=10.15",
     "rich-pyfiglet>=0.1.4",
     "textual-pyfiglet>=0.8.6",
-    "textual-slidecontainer>=0.4.1",
+    "textual-slidecontainer>=0.4.2",
     "textual-window>=0.3.4",
+    "textual-coloromatic>=0.1.1",
 ]
