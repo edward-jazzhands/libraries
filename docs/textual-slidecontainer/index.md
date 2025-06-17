@@ -58,6 +58,29 @@ def compose(self):
 
 You can set the container's width and height in CSS as you usually would. Note that the above example will dock to the top of your screen automatically because it is in floating mode (floating is the default).
 
+## Dock position
+
+The container has a `dock_position` argument which adds 4 new dock positions to the base 4 of top, left, right, and bottom. The 8 possible dock positions are:
+
+- topleft
+- top
+- topright
+- left
+- right
+- bottomleft
+- bottom
+- bottomright
+
+The slide direction and dock position can be changed independently. For example, you might set the dock position to "bottomright" and then set the slide direction to be either right or down.
+
+```py
+def compose(self):
+    with SlideContainer(
+        id = "my_slidecontainer", slide_direction = "bottom", dock_position = "bottomright"       
+    ):
+        yield Static("Your widgets here")
+```
+
 ## Start closed / Hidden
 
 If you'd like the container to start closed/hidden, simply set `start_open` to False:
@@ -66,18 +89,6 @@ If you'd like the container to start closed/hidden, simply set `start_open` to F
 def compose(self):
     with SlideContainer(
         id = "my_slidecontainer", slide_direction = "left", start_open = False      
-    ):
-        yield Static("Your widgets here")
-```
-
-## Different slide and dock directions
-
-You can set the slide direction and dock direction to be different:
-
-```py
-def compose(self):
-    with SlideContainer(
-        id = "my_slidecontainer", slide_direction = "right", dock_direction = "top"       
     ):
         yield Static("Your widgets here")
 ```
@@ -91,9 +102,9 @@ with SlideContainer(
     classes = "my_container_classes",
     id = "my_slidecontainer",
     start_open = False,         
-    slide_direction = "left",
-    dock_direction = "top",      # dock to the top but slide left
-    floating = False,            # default is True
+    slide_direction = "down",
+    dock_position = "bottomleft",  
+    floating = False,                 # default is True
     fade = True,
     duration = 0.6,                   # the default is 0.8     
     easing_function = "out_bounce"    # default is "out_cubic".                           
@@ -153,7 +164,7 @@ class TextualApp(App):
     }
     #my_static { border: solid blue; width: 1fr;}
     SlideContainer {
-        width: 25; height: 1fr;
+        width: 25; height: 75%;
         background: $panel; align: center middle;
     }
     """
@@ -180,7 +191,7 @@ Check out the [source code of the demo app](https://github.com/edward-jazzhands/
 The SlideContainer posts two messages:
 
 - `SlideCompleted`
-- `InitClosed`
+- `InitCompleted`
 
 ### SlideCompleted
 
@@ -205,22 +216,22 @@ def on_slide_container_slide_completed(self, event: SlideContainer.SlideComplete
     # handle your loading screen here.
 ```
 
-### InitClosed
+### InitCompleted
 
-Because the container needs to know where it should be on the screen in open mode, starting in closed mode can sometimes reveal some graphical glitches that are tricky to deal with. In order to help solve this problem, the container provides an `InitClosed` message. This is only posted after the container has been mounted and moved to its closed position. It contains one attribute:
+Because the container needs to know where it should be on the screen in open mode, starting in closed mode can sometimes reveal some graphical glitches that are tricky to deal with. In order to help solve this problem, the container provides an `InitCompleted` message. This is only posted after the container has been mounted and moved to its starting position. It contains one attribute:
 
 - `container` - The container that just initialized in the closed position.
 
 ```py
 from textual import on
 
-@on(SlideContainer.InitClosed, "#my_container")    # Note the selector is optional.
-def my_container_loaded(self, event: SlideContainer.InitClosed):
-    self.log(f"Slide container initialized closed: {event.container}")
+@on(SlideContainer.InitCompleted, "#my_container")    # Note the selector is optional.
+def my_container_loaded(self, event: SlideContainer.InitCompleted):
+    self.log(f"Slide container initialized: {event.container}")
     # However you want to deal with your loading logic  here.
 
 # OR using the other method:
-def on_slide_container_init_closed(self, event: SlideContainer.InitClosed):
+def on_slide_container_init_completed(self, event: SlideContainer.InitCompleted):
     # handle your loading logic  here.
 ```
 
