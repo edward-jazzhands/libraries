@@ -32,7 +32,7 @@ Or if you have it downloaded into your python environment, run it using the entr
 textual-window
 ```
 
-For uv users:
+For uv users, after adding it to your environment:
 
 ```sh
 uv run textual-window

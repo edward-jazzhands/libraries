@@ -32,7 +32,7 @@ Or if you have it downloaded into your python environment, run it using the entr
 textual-slidecontainer
 ```
 
-For uv users:
+For uv users, after adding it to your environment:
 
 ```sh
 uv run textual-slidecontainer
@@ -218,9 +218,11 @@ def on_slide_container_slide_completed(self, event: SlideContainer.SlideComplete
 
 ### InitCompleted
 
-Because the container needs to know where it should be on the screen in open mode, starting in closed mode can sometimes reveal some graphical glitches that are tricky to deal with. In order to help solve this problem, the container provides an `InitCompleted` message. This is only posted after the container has been mounted and moved to its starting position. It contains one attribute:
+Because the container needs to know where it should be on the screen in open mode, starting in closed mode can sometimes reveal some graphical glitches that are tricky to deal with. In order to help solve this problem, the container provides an `InitCompleted` message. This is only posted after the container has been mounted and moved to its starting position. Note this message is sent regardless of whether the container starts closed, but its usefulness is most likely for the ones that do.
 
-- `container` - The container that just initialized in the closed position.
+It contains one attribute:
+
+- `container` - The container that just initialized.
 
 ```py
 from textual import on
