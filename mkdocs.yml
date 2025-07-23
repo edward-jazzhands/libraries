@@ -22,41 +22,53 @@ theme:
         name: Switch to dark mode
 
 nav:
+  - EZPubSub:
+    - Introduction: ezpubsub/index.md
+    - Documentation: ezpubsub/docs.md
+    - Reference: ezpubsub/reference.md 
   - Rich-Pyfiglet: 
-    - Guide: rich-pyfiglet/index.md
+    - Introduction: rich-pyfiglet/index.md
+    - Documentation: rich-pyfiglet/docs.md
     - Reference: rich-pyfiglet/reference.md  
   - Textual-Pyfiglet:  
-    - Guide: textual-pyfiglet/index.md   
+    - Introduction: textual-pyfiglet/index.md
+    - Documentation: textual-pyfiglet/docs.md   
     - Reference: textual-pyfiglet/reference.md  
   - Textual-SlideContainer: 
-    - Guide: textual-slidecontainer/index.md
+    - Introduction: textual-slidecontainer/index.md
+    - Documentation: textual-slidecontainer/docs.md
     - Reference: textual-slidecontainer/reference.md
   - Textual-Window:
-    - Guide: textual-window/index.md
+    - Introduction: textual-window/index.md
+    - Documentation: textual-window/docs.md
     - Reference: textual-window/reference.md
   - Textual-Color-O-Matic:
-    - Guide: textual-coloromatic/index.md
+    - Introduction: textual-coloromatic/index.md
+    - Documentation: textual-coloromatic/docs.md
     - Reference: textual-coloromatic/reference.md    
-
+     
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://www.github.com/edward-jazzhands
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.highlight
   - pymdownx.snippets
   - pymdownx.superfences   
   - admonition
   - attr_list
-  - md_in_html  
+  - md_in_html 
   - toc:
       permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg      
 
 plugins:
   - search

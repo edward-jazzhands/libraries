@@ -6,3 +6,4 @@ textual-pyfiglet
 textual-slidecontainer
 textual-window
 textual-coloromatic
+ezpubsub
