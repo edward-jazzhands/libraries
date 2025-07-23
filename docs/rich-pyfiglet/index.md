@@ -20,6 +20,7 @@ It provides a RichFiglet class that is fully compatible with the Rich API and ca
 
 - Usage in your Rich scripts can be a single line of code with default settings.
 - Color system built on Rich can take common formats such as hex code and RGB, as well as a big list of named colors
+- Banner will automatically adjust to the terminal size and word-wrap the text to fit the terminal width.
 - Automatically create gradients between colors vertically or horizontally.
 - Comes with 4 animation modes built in (up, down, smooth-strobe, fast-strobe).
 - Pass in a list of colors for multicolored gradients and animations.

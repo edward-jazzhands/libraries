@@ -1,5 +1,10 @@
 # EZPubSub<br>Documentation and Guide
 
+## Requirements
+
+- Python 3.10 or higher
+- Optional: Enable type checking with [Pyright](http://pyright.org), [MyPy](http://mypy-lang.org), or your checker of choice to get the full benefits of static typing and generics.
+
 ## Installation
 
 ```sh
