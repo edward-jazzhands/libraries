@@ -9,13 +9,11 @@
 ![badge](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![badge](https://img.shields.io/badge/framework-Textual-blue?style=for-the-badge)
 
-[Link to Github Repository](https://github.com/edward-jazzhands/textual-pyfiglet)
-
 Textual-PyFiglet is an implementation of [PyFiglet](https://github.com/pwaller/pyfiglet) for [Textual](https://github.com/Textualize/textual).
 
 It provides a `FigletWidget` which makes it easy to add ASCII banners with colors and animating gradients.
 
-*This library is related to [Rich-Pyfiglet](../rich-pyfiglet/index.md), as well as utilizes [Textual-Coloromatic](../textual-coloromatic/index.md) to provide the Color/animation abilities.*
+*This library is related to [Rich-Pyfiglet](https://github.com/edward-jazzhands/rich-pyfiglet), as well as utilizes [Textual-Coloromatic](https://github.com/edward-jazzhands/textual-coloromatic) to provide the Color/animation abilities.*
 
 ## Features
 
@@ -47,14 +45,11 @@ pipx run textual-pyfiglet
 
 ## Documentation
 
-### [Click here for documentation](docs.md)
+### [Click here for documentation](https://edward-jazzhands.github.io/libraries/textual-pyfiglet/docs/)
 
 ## Video
 
-<video style="width: 100%; height: auto;" controls>
-  <source src="https://github.com/user-attachments/assets/29f166b1-3680-4f9a-81cc-717ad6007fad" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/29f166b1-3680-4f9a-81cc-717ad6007fad
 
 ## Questions, Issues, Suggestions?
 
