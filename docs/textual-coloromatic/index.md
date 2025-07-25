@@ -1,18 +1,17 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/939446b8-5257-4e2c-b0d9-338cfa4973e5">
-  <img src="https://github.com/user-attachments/assets/ce8e2acb-fbba-4c63-8e50-c361d909c6ae">
+<!-- GitHub prefers-color-scheme method -->
+<picture class="only-github">
+  <source media="(prefers-color-scheme: dark)" srcset="https://edward-jazzhands.github.io/assets/textual-coloromatic/banner-dark-theme.gif">
+  <img src="https://edward-jazzhands.github.io/assets/textual-coloromatic/banner-light-theme.gif">
 </picture>
 
 # Textual-Color-O-Matic
 
-![badge](https://img.shields.io/badge/linted-Ruff-blue?style=for-the-badge&logo=ruff)
-![badge](https://img.shields.io/badge/formatted-black-black?style=for-the-badge)
-![badge](https://img.shields.io/badge/type_checked-MyPy_(strict)-blue?style=for-the-badge&logo=python)
-![badge](https://img.shields.io/badge/Type_checked-Pyright_(strict)-blue?style=for-the-badge&logo=python)
-![badge](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![badge](https://img.shields.io/badge/framework-Textual-blue?style=for-the-badge)
-
-[Link to Github Repository](https://github.com/edward-jazzhands/textual-coloromatic)
+[![badge](https://img.shields.io/badge/linted-Ruff-blue?style=for-the-badge&logo=ruff)](https://astral.sh/ruff)
+[![badge](https://img.shields.io/badge/formatted-black-black?style=for-the-badge)](https://github.com/psf/black)
+[![badge](https://img.shields.io/badge/type_checked-MyPy_(strict)-blue?style=for-the-badge&logo=python)](https://mypy-lang.org/)
+[![badge](https://img.shields.io/badge/Type_checked-Pyright_(strict)-blue?style=for-the-badge&logo=python)](https://microsoft.github.io/pyright/)
+[![badge](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](https://opensource.org/license/mit)
+[![badge](https://img.shields.io/badge/framework-Textual-blue?style=for-the-badge)](https://textual.textualize.io/)
 
 Textual-Color-O-Matic is a [Textual](https://github.com/Textualize/textual) library for color animations and tiling effects.
 
@@ -34,7 +33,7 @@ or stopped in real-time.
 
 ## Demo App
 
-If you have uv or Pipx, you can immediately try the demo app:
+If you have [uv](https://docs.astral.sh/uv/) or [pipx](https://pipx.pypa.io/stable/), you can immediately try the demo app:
 
 ```sh
 uvx textual-coloromatic
@@ -46,14 +45,16 @@ pipx run textual-coloromatic
 
 ## Documentation
 
-### [Click here for documentation](docs.md)
+### [Click here for documentation](https://edward-jazzhands.github.io/libraries/textual-coloromatic/docs/)
 
 ## Video
 
-<video style="width: 100%; height: auto;" controls>
-  <source src="https://github.com/user-attachments/assets/863114a0-1cad-4b1e-bfeb-ed04736c4bce" type="video/mp4">
+<video style="width: 100%; height: auto;" controls loop>
+  <source src="https://edward-jazzhands.github.io/assets/textual-coloromatic/demo-0.2.1-handbrake.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+[ ](https://github.com/user-attachments/assets/1140fd13-526c-4bc8-b489-a6e59d9b5252)
 
 ## Questions, Issues, Suggestions?
 
