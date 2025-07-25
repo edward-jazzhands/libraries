@@ -1,0 +1,18 @@
+/* --- Uncomment for Dev testing Sanity check --- */
+/* body[data-md-color-scheme="slate"] { border: 10px solid lime !important; } */
+
+/* --- Hide/show based on platform --- */
+.only-mkdocs { display: none; }
+.only-github { display: inline; }
+
+/* MkDocs adds this to <html>, GitHub does not */
+/* :root[data-md-color-scheme] .only-mkdocs { display: none; } */
+body[data-md-color-scheme] .only-github { display: none; }
+
+/* --- MkDocs theme toggle logic --- */
+body[data-md-color-scheme="default"] .only-light { display: inline; }
+body[data-md-color-scheme="default"] .only-dark { display: none; }
+
+body[data-md-color-scheme="slate"] .only-light { display: none; }
+body[data-md-color-scheme="slate"] .only-dark { display: inline; }
+
