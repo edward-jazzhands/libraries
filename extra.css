@@ -1,0 +1,6 @@
+/* --- Uncomment for Dev testing Sanity check --- */
+/* body[data-md-color-scheme="slate"] { border: 10px solid lime !important; } */
+
+.only-github {
+  display: none;
+}
