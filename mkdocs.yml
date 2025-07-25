@@ -21,6 +21,9 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
 
+extra_css:
+  - extra.css
+
 nav:
   - EZPubSub:
     - Introduction: ezpubsub/index.md
