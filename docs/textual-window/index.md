@@ -1,7 +1,11 @@
-<picture>
+<picture class="only-github">
   <source media="(prefers-color-scheme: dark)" srcset="https://ttygroup.github.io/assets/textual-window/banner-dark-theme.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://ttygroup.github.io/assets/textual-window/banner-light-theme.png">  
   <img src="https://ttygroup.github.io/assets/textual-window/banner-light-theme.png">
 </picture>
+
+![banner](https://ttygroup.github.io/assets/textual-window/banner-light-theme.png#only-light)
+![banner](https://ttygroup.github.io/assets/textual-window/banner-dark-theme.png#only-dark)
 
 # Textual-Window
 
